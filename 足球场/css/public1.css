@@ -1,0 +1,15 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,dl,dd,form,fieldset,legend,input,textarea,select,figure{margin:0;padding:0}
+
+a{text-decoration:none}
+
+em{font-style:normal}
+li{list-style:none}
+img{vertical-align:middle}/*解决图片插入元素下方撑大三个像素的bug*/
+
+html,body{height: 100%;position: relative;}
+body{display: flex;flex-direction: column;}
+
+header figure{font-size: 0.34rem;color: #fff;text-align: center;}
+header figure figcaption{background: 0;display: flex;justify-content: center;}
+header{height: 0.88rem;}
+

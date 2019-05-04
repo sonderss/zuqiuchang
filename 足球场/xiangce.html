@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" href="字体/iconfont.css" />
+		<link rel="stylesheet" href="css/faxian.css" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" /> 
+		<link rel="stylesheet" href="css/xiangce.css" />
+	</head>
+	<body>
+		<div class="box" id="box">
+			<header><img src="img/pic4.gif"/>
+			  <span class="iconfont icon-jiantou4" onclick="aa()"></span>
+			</header>
+			<figure>萌萌哒小妖精</figure>
+			<aside><p>这家伙很懒，什么也没有留下...</p></aside>
+			<article>
+				<ul>
+					<li><a href="index.html">足球现场</a></li>
+					<li><a href="#">足球生活</a></li>
+					<li><a href="xiaomeng.html">足球美女</a></li>
+				</ul>
+			</article>
+		</div>
+		<header>
+			
+			<figure>
+	   	  	  <span class="iconfont icon-jiantou4" onclick="tt()"></span>
+	   	  	  <figcaption>发现</figcaption>
+	   	    </figure>
+			
+		</header>
+		<section>
+			<figure>
+				<img src="img/pic8.jpg" />
+			</figure>
+			<aside>
+				<h3>确定裁剪</h3>
+				<p>放弃重来</p>
+			</aside>
+			<nav>
+				<img src="img/pic9.jpg"/>
+				<button onclick="p()"><a href="geren.html">提交</a></button>
+			</nav>
+			
+		</section>
+		
+		
+		
+		
+		
+		
+		
+		
+		 <footer>
+	       
+	   	   <figure>
+	   	   	 <span class="iconfont icon-home" ></span>
+	   	   	 <figcaption><a href="index.html">首页</a></figcaption>
+	   	   </figure>
+	   	   <figure>
+	   	   	 <span class="iconfont icon-fangdajing"></span>
+	   	   	 <figcaption><a href="faxian.html">发现</a></figcaption>
+	   	   </figure>
+	   	   <figure>
+	   	   	 <span class="iconfont icon-iconset0456"></span>
+	   	   	 <figcaption></figcaption>
+	   	   </figure>
+	   	   
+	   	   <figure>
+	   	   	 <span class="iconfont icon-wo"></span>
+	   	   	 <figcaption><a href="geren.html">我的</a></figcaption>
+	   	   </figure>
+	   	   <figure>
+	   	   	 <span class="iconfont icon-shouji"></span>
+	   	   	 <figcaption><a href="#">退出</a></figcaption>
+	   	   </figure>
+	    
+	       
+	   </footer>
+	</body>
+</html>
+<script>
+         window.onload = function(){
+         /*720代表设计师给的设计稿的宽度，你的设计稿是多少，就写多少;100代表换算比例，这里写100是
+                           为了以后好算,比如，你测量的一个宽度是100px,就可以写为1rem,以及1px=0.01rem等等*/
+         getRem(640,100)
+         };
+         window.onresize = function(){
+         getRem(640,100)
+         };
+         function getRem(pwidth,prem){
+           var html = document.getElementsByTagName("html")[0];
+           var oWidth = document.body.clientWidth || document.documentElement.clientWidth;
+            html.style.fontSize = oWidth/pwidth*prem + "px";
+}
+        </script>
+        
+
+
+
+
+
+
+
+<script type="text/javascript">
+	var pic=document.getElementById("box");
+	function tt(){
+		
+		tt.onclick = pic.style.display ="block";
+		
+	}
+
+	function aa(){
+		
+		aa.onclick = pic.style.display = "none";
+		
+	}
+	
+	
+</script>
+
+
+
+
+

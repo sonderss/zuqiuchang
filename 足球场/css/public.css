@@ -1,0 +1,61 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,dl,dd,form,fieldset,legend,input,textarea,select,figure{margin:0;padding:0}
+
+a{text-decoration:none}
+
+em{font-style:normal}
+li{list-style:none}
+img{vertical-align:middle}/*解决图片插入元素下方撑大三个像素的bug*/
+
+html,body{height: 100%;position: relative;}
+body{display: flex;flex-direction: column;}
+
+header{height: 1.58rem;}
+header figure{height: 0.88rem;background: #0cc442;font-size:0.22rem;display: flex;align-items: center;padding: 0 0.3rem;}
+header figure figcaption{width: 2.35rem;height: 0.5rem;background: #3dd066;display: flex;margin: 0 auto;border-radius: 0.5rem;}
+header figure figcaption a{width: 50%;height: 0.5rem;display:flex;align-items: center;justify-content: center;border-radius:0.5rem 0 0 0.5rem;color: #a4e9b2;}
+header figure figcaption a:hover{background: #64da86;text-decoration: none;color: #e4f0ec;}
+
+header figure figcaption a:nth-child(2):hover{border-radius: 0 0.5rem 0.5rem 0;}
+header figure .iconfont{font-size: 0.2rem;color: #fff;}
+
+
+header nav{height: 0.7rem;background: #fff;font-size: 0.26rem;}
+header nav article{display: flex;}
+header nav figcaption{height: 0.65rem;width: 2.131313rem;text-align: center;line-height: 0.65rem;}
+header nav article figcaption:hover{color: #0bc540;border-bottom: 5px solid #0cc344}
+header nav article a{color: #000;}
+header nav article a:hover{color: #0dc441;}
+/*header end*/
+
+
+section{font-size: 0.22rem;flex: 1;overflow: auto;}
+
+
+
+
+footer{height: 0.88rem;font-size: 0.22rem;display: flex;justify-content: space-around;align-items: center;text-align: center;border-top: 1px solid #ccc;color: #ccc;position: relative;position: relative;}
+
+footer figure:hover {color: #0ac542;}
+footer figure:hover a{color: #0ac542;}
+footer .iconfont{font-size: 0.32rem;}
+footer .icon-iconset0456{font-size: 1.07rem;border: 1px solid #ccc;border-radius: 50%;position: absolute;bottom: 0;left: 2.66rem;}
+footer figure a{color: #ccc;}
+/*footer end*/
+
+
+
+
+
+
+.box{width: 3.58rem;height: 100%;background:rgba(34,91,50,0.9) ;position: absolute;display: none;z-index: 22;}
+.box:hover{display: none;}
+.box header{width: 3.58rem;height: 2.16rem;overflow: hidden;}
+.box header img{margin:0.35rem 1rem 0.24rem 1.02rem;display: block;width: 1.57rem;height: 1.56rem;}
+.box header span{width: 20px;height: 20px;display: block;position: absolute;top: 20px;left: 20px;color: #fff;}
+
+.box figure{width: 3.58rem;height: 0.59rem;border-top: 1px solid #4b7a58;border-bottom: 1px solid #4b7a58;background: #1c7034;color: #fff;font-size: 0.24rem;text-align: center;line-height: 0.59rem;}
+.box aside{width: 3.58rem;height: 1.38rem;color: #bdc7be;font-size: 23px;overflow: hidden;border-bottom:  1px solid #60896b;}
+.box aside p{width: 2.4rem;height: 1rem;margin: 0.2rem auto;font-size: 0.22rem;}
+.box article{width: 3.58rem;height: 1.80rem;color: #fff;font-size: 0.22rem;}
+.box article li{height: 0.59rem;line-height: 0.59rem;text-align: center;border-bottom: 1px solid #60896b;}
+.box article li a{color: #fff;}

@@ -1,0 +1,24 @@
+footer div{height: 4rem;background: #fff;width: 100%;position: absolute;bottom: 0;left: 0;}
+footer{position: relative;}
+footer div aside{height: 0.72rem;border-bottom: 1px solid #ccc;}
+
+footer aside p{display: flex;justify-content:space-between;height: 0.72rem;align-items: center;font-size: 0.21rem;width: 5.97rem;}
+footer  aside p span{color: #0dc441;}
+footer  aside p a:visited{color: #ccc;}
+footer div{display: flex;flex-direction: column;align-items: center;justify-content: space-between;}
+footer figure{width: 5rem;height: 2.37rem;margin-bottom: 0.5rem;}
+footer form{width: 5rem;height: 2.37rem;font-size: 0.24rem;color: #dadada;}
+footer form input{height: 0.54rem;width: 5rem;margin-bottom: 0.36rem;border: 0;border-bottom: 1px solid #ccc;outline: none;color: #dadada;}
+
+
+
+.heipin{
+	width: 100%;
+	height: calc(100% - 4rem);
+	background: #000;
+	opacity: 0.5;
+	position: absolute;
+    top: 0;
+    left: 0;	
+  
+}

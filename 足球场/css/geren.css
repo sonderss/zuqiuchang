@@ -1,0 +1,12 @@
+section figure{height: 1.41rem;display: flex;}
+section figure img{width: 0.99rem;height: 0.99rem;margin: 0.21rem 0.42rem 0.25rem 0.13rem;}
+section figure h2{width: 0.99rem;height: 0.99rem;}
+section aside{display: flex;flex-direction: column;justify-content: space-around;margin-left: 0.3rem;}
+section aside p{color: #999999;font-size: 0.22rem;}
+
+
+
+section nav{height: 0.42rem;border-bottom: 1px solid #ccc;border-top:1px solid #ccc ;display: flex;}
+section nav p{font-size: 0.22rem;color: #999999;width: 2rem;display: flex;justify-content: space-around;height: 0.37rem;align-items: center;}
+section nav p:hover{border-bottom: 0.05rem solid #0dc441;}
+section article img{width: 3.15rem;height: 3.15rem;}

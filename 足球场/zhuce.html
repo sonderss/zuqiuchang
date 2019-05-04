@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" href="字体/iconfont.css" />
+		<link rel="stylesheet" href="css/faxian.css" />
+		<link rel="stylesheet" type="text/css" href="css/zhuce.css"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" /> 
+	</head>
+	<body>
+		<div class="box" id="box">
+			<header><img src="img/pic4.gif"/>
+			  <span class="iconfont icon-jiantou4" onclick="aa()"></span>
+			</header>
+			<figure>萌萌哒小妖精</figure>
+			<aside><p>这家伙很懒，什么也没有留下...</p></aside>
+			<article>
+				<ul>
+					<li><a href="index.html">足球现场</a></li>
+					<li><a href="#">足球生活</a></li>
+					<li><a href="xiaomeng.html">足球美女</a></li>
+				</ul>
+			</article>
+		</div>
+		<header>
+			
+			<figure>
+	   	  	  <span class="iconfont icon-jiantou4" onclick="tt()"></span>
+	   	  	  <figcaption>发现</figcaption>
+	   	    </figure>
+			
+		</header>
+		<section>
+			<figure>
+				<form>
+					<input type="text"placeholder="请输入昵称" class="sub"/>
+					<input type="submit" value="搜索" class="pub" />
+				</form>
+				<ul >
+					<li>
+						
+	   	               	   <img src="img/pic5.gif"/>
+	   	 				    <aside>
+	   	 				    	<h3>我叫小萌<span><a href="#" onclick="guan()">关注</a></span></h3>
+	   	 	
+	   	 					<p>我是小萌我怕谁！哈哈哈哈！</p>
+	   	 				    	
+	   	 				    </aside>
+	   	 					
+	   	 				
+					</li>
+					<li>足球达人</li>
+					<li>足球王子</li>
+					<li>英国足球</li>
+					<li>最近足球1000年</li>
+					<li>哈哈足球</li>
+					<li>我是足球迷</li>
+					
+					<li>点击选项快速搜素</li>
+				</ul>
+				
+			</figure>
+			
+			
+		</section>
+		   <article id="guanzhu">
+				<figure>登录<span onclick="zhu()">X</a></span></figure>
+				<aside>
+					<ul>
+						<li>手机号</li>
+						<li>密码</li>
+					</ul>
+					<p>还没有账号？点击此处立即<a href="#" onclick="foot()">注册</a></p>
+				</aside>
+				
+				<nav><button onclick="wo()">提交</button></nav>
+				
+				
+			</article>
+		
+		  
+		
+		
+		
+		
+		
+		 <footer id="foot">
+	        <div>
+	       	  <aside>
+	       	  	<p><a href="faxian.html" onclick="close1()">取消</a><span onclick="close1()"><a href="faxian.html">确定</a></span></p>
+	       	  </aside>
+	       	  <figure>
+	       	  	 <form>
+	       	  	 	<input type="text" value="手机号" />
+	       	  	 	<input type="text" value="密码"/>
+	       	  	 	<input type="text"  value="昵称"/>
+	       	  	 	
+	       	  	 </form>
+	       	  </figure>
+	       	
+	       	
+	       	
+	       	
+	      
+	    
+	       </div>
+	   </footer>
+	   <div class="heipin" id="heipin"></div>
+	   <div id="quanhei"></div>
+	</body>
+</html>
+<script>
+         window.onload = function(){
+         /*720代表设计师给的设计稿的宽度，你的设计稿是多少，就写多少;100代表换算比例，这里写100是
+                           为了以后好算,比如，你测量的一个宽度是100px,就可以写为1rem,以及1px=0.01rem等等*/
+         getRem(640,100)
+         };
+         window.onresize = function(){
+         getRem(640,100)
+         };
+         function getRem(pwidth,prem){
+           var html = document.getElementsByTagName("html")[0];
+           var oWidth = document.body.clientWidth || document.documentElement.clientWidth;
+            html.style.fontSize = oWidth/pwidth*prem + "px";
+}
+        </script>
+        
+
+
+
+
+
+
+
+<script type="text/javascript">
+	var pic=document.getElementById("box");
+	function tt(){
+		
+		tt.onclick = pic.style.display ="block";
+		
+	}
+
+	function aa(){
+		
+		aa.onclick = pic.style.display = "none";
+		
+	}
+	
+	
+</script>
+
+<script type="text/javascript">
+	var a=document.getElementById("guanzhu");
+	
+	function guan(){
+		guan.onclick = a .style.display="block";
+		
+	}
+	function zhu(){
+		guan.onclick = a .style.display="none";
+		
+	}
+	function wo(){
+		guan.onclick = a .style.display="none";
+		
+	}
+</script>
+<script type="text/javascript">
+	var opa=document.getElementById("foot");
+	var a=document.getElementById("guanzhu");
+	var hei=document.getElementById("heipin");
+	function foot(){
+		foot.onclick = opa.style.display ="block";
+		foot.onclick = hei.style.display = "block";
+		foot.onclick=a.style.display="none";
+	}
+	function close1(){
+		close1.onclick=opa.style.display="none";
+		close1.onclick=hei.style.display="none";
+	}
+</script>

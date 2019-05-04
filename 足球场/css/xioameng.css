@@ -1,0 +1,32 @@
+
+section figure{height: 1.41rem;display: flex;}
+section figure img{width: 0.99rem;height: 0.99rem;margin: 0.21rem 0.42rem 0.25rem 0.13rem;}
+section figure h2{width: 0.99rem;height: 0.99rem;}
+section aside{display: flex;flex-direction: column;justify-content: space-around;margin-left: 0.3rem;}
+section  h3{font-size: 0.29rem;display: flex;justify-content: space-between;width: 4.78rem;height: 0.27rem;}
+section  h3 span{color: #dddddd;font-size: 0.2rem;line-height: 0.40rem;background: url(../img/dianzan.gif)no-repeat right center;height: 0.27rem;display: block;padding-right: 0.1rem;height: 0.30rem;width: 1rem;padding-right: 0.1rem;float: left;background-size:contain ;}
+
+section aside p{color: #999999;font-size: 0.22rem;}
+
+section article{height: 6.35rem;}
+section article img{width: 6.55rem;height: 5.70rem;}
+section article figure{height: 0.65rem;border-bottom: 1px solid #ccc;font-size: 0.22rem;line-height: 0.65rem;}
+section article figure p{margin-left: 0.42rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
